@@ -1,0 +1,60 @@
+@media screen and (min-width: 1024px) {
+    body {
+    background-color: #F5F1F4;
+  }
+  header{
+  	text-align: center;
+  }
+  nav{
+  	background-color: #30A894;
+  }
+  ul{
+  	list-style: none;
+  }
+  li{
+  	padding: 30px 100px;
+  	display: inline-block;
+  }
+ header a{
+ 	list-style: none;
+ 	text-decoration-line: none;
+ 	color: white;
+ 	font-family: 'PT Sans Narrow', sans-serif;
+ 	font-size: 1.6rem;
+ }
+ h2,h3,h4{
+ 	font-family: 'PT Sans Narrow', sans-serif;
+ 	font-size: 1.6rem;
+ 	color: #30A894;
+ }
+ article p{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 1.6rem;
+ 	color: #A9AAAD;
+ 	vertical-align: top;
+ }
+ section{
+ 	display: inline-block;
+ 	width: 70%;
+ 	vertical-align: top;
+ }
+ section img {
+ 	width: 100%;
+ }
+ aside{
+ 	background-color: #B4D8AE;
+ 	display: inline-block;
+ 	width:30%;
+ 	vertical-align: top;
+ 	float: right;
+ }
+  footer{
+  	text-align: center;
+ }
+ footer a ,span{
+ 	color: #30A894;
+ }
+ footer img{
+ 	width: 5%;
+ }
+}

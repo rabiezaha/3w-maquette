@@ -1,0 +1,32 @@
+li{
+	display: inline-block;
+	list-style: none;
+	margin:0;
+}
+.red{
+	color: red;
+}
+.bleu{
+	color: blue;
+}
+.green{
+	color: green;
+}
+.bred{
+	background-color: red;
+}
+.bbleu{
+	background-color: blue;
+}
+.bgreen{
+	background-color: green;
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+}
+footer img{
+	width: 50px;
+
+}
+

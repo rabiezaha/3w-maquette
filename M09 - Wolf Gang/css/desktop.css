@@ -1,0 +1,151 @@
+@media screen and (min-width: 1024px) {
+	*{
+		box-sizing: border-box;
+		outline: none;
+	}
+	@font-face {
+  		font-family: 'Bodega';
+  		src: url(../fonts/BodegaSans_Black.ttf);
+	}
+	body{
+		background: url("../img/bg_body.svg");
+		background-color: #444;
+		background-size:cover;
+		margin: 50px;
+	}
+	nav {
+		background: linear-gradient(120deg, #fff 50%, #333 50%)
+	}
+	h1{
+		padding: 0 ;
+		margin : 0;
+		display: inline-block;
+	}
+	h1 img{
+		margin: 40px 30px 30px 30px;
+	}
+	nav ul {
+		list-style: none;
+		display: inline-block;
+		float: right;
+		margin: 30px 30px 30px 30px;
+	}
+	nav li{
+		text-align: right;
+		padding: 10px 0;
+	}
+	nav a{
+		font-size: 1.9em;
+		font-weight: bold;
+		font-family: Bodega;
+		color: #fff;
+		text-decoration-line: none;
+	}
+	h2{
+		font-size: 2em;
+		font-family: 'Roboto Slab', serif;
+		color: #fff;
+		text-align: center;
+	}
+	h3{
+		line-height: 2;
+		color: #fff;
+		font-family: 'Roboto Slab', serif;
+		font-size: 2em;
+		text-align: left;
+		border-top: solid 2px #333;
+		border-left: solid 2px #333;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	h4{
+		margin: 0 ;
+		padding: 0 ;
+	}
+	span,h4{
+		color: orange;
+		font-family: 'Roboto Slab', serif;
+	}
+	#decouvre article {
+		background-color: #fff;
+		text-align: center;
+		width: 23%;
+		display: inline-block;
+	}
+	.seart {
+		margin-right: 29px;
+	}
+	p{
+		padding: 20px;
+		line-height: 2;
+		color: grey;
+		font-family: 'Roboto Slab', serif;
+	}
+	.qwe{
+		color: white;
+		text-align: center;
+	}
+	article img {
+		width: 90%;
+		margin: 0;
+	}
+	hr{
+		border: orange solid 1px ;
+		width: 80%;
+	}
+	button{
+		font-size: 1.2em;
+		border: 0;
+		background-color: orange;
+		padding: 15px 20px;
+		margin: 10px;
+		color: #fff;
+		width: 80%;
+	}
+	article{
+		text-align: center;
+	}
+	#asd{
+		float: left;
+		width:40%;
+		vertical-align: top;
+	}
+
+	i {	font-size: 65px;
+		color: white;
+		margin:0 20px;
+		display: block;
+	}
+	video{
+		width: 40%;
+		float: right;
+		vertical-align: top;
+	}
+	h5{
+		font-size: 2em;
+		font-weight: bold;
+		font-family: Bodega;
+		color: grey;
+	}
+	footer{
+		margin-top: 
+		text-align: center;
+		clear: both;
+	}
+	footer a{
+		font-family: 'Roboto Slab', serif;
+		color: grey;
+		line-height: 3;
+		color: #fff;
+		margin: 35px;
+	}
+	footer img{
+		width:10%;
+		margin-top:40px;
+	}
+	footer p{
+		width: 70%;
+		margin: 0 auto;
+	}
+
+}

@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box; 
+	outline: none; /*border automatique 0*/
+}
+body{
+	background-color: #87C8C5;
+	margin: 0;
+	font-size: 1em;
+	line-height: 2 ;
+}
+header{
+	background-color: #25B3B4;
+	width: 100%;
+	text-align: center;
+	border-top: 3px #2C9BA0 solid ;
+	border-bottom: 3px #2C9BA0 solid ;
+	margin-top: 100px;
+}
+h1{
+	margin: 0;
+}
+.ar1{
+	margin-bottom: 90px;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin: 0 15px;
+}
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.5em;
+}
+/*Main*/
+main {
+	min-width: 800px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+article{
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+main img{
+	float: left;
+	margin: 0 10px;
+}
+h2{
+	font-family: 'Slabo 27px', serif;
+	font-size: 2.5em;
+	color: #525050;
+}
+p{
+	color: #525050;
+}
+ span,section i{
+	color: #25B3B4;
+}
+h3{
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 3.5em;
+	color: #525050;
+
+
+}
+h4{
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size: 2.5em;
+	color: #525050;
+}
+h5{
+	font-family: 'Slabo 27px', serif;
+}
+h6,h5 span{
+	color: #81ddde;
+}
+/*common div*/
+section {
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+	background-color: #B6DEDC;
+	vertical-align: top;
+}
+section article{
+	text-align: left;
+	display: inline-block;
+	width: 45%;
+	font-family: 'Open Sans', sans-serif;
+	vertical-align: top;
+	color: #525050;
+
+}
+button{
+	float: right;
+	background-color: #2C9BA0;
+	border: none;
+	color: white;
+	padding: 10px 22px;
+	text-align: center;
+	margin: 30px;
+}
+button i{
+	color: #ffffff;
+}
+aside {
+	color: #ffffff;
+	display: inline-block;
+	width: 25%;
+	border: 6px solid #2C9BA0;
+	background-color: #25B3B4;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px;
+	margin: 0 18px;
+}
+aside h5 
+{
+	text-align: left;
+	font-size: 1.4em;
+}
+aside p{
+	color: #ffffff
+}
+section img{
+	border-radius: 50%;
+}
+aside img {
+	margin: -90px 135px;
+}
+
+#aside{
+	width: 70px;
+}
+/*Footer*/
+footer{
+	text-align: center;
+	margin-top: 20px;
+}
+footer img{
+	width: 50px;
+
+}

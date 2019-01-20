@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px)
+{
+	*{
+		box-sizing: border-box;
+		outline: none;
+
+	}
+	@font-face {
+  	font-family: 'Bodega';
+  	src: url(../fonts/BodegaSans_Black.ttf);
+	}
+	body{
+	background: url("img/bg_body.svg");
+	background-color: #444444;
+	background-size:cover;
+	margin: 50px;
+	}
+	nav {
+		background: linear-gradient(145deg, #fff 50%, #333 50%)
+	}
+	h1{
+		text-align: center;
+	}
+	h1 img{
+		width: 70%;
+		margin: 40px 0px 100px 0px;
+	}
+	nav ul {
+		list-style: none;
+		text-align: right;
+		margin-right: 80px;
+	}
+	nav li{
+		padding:0px 0 100px 0;
+	}
+	nav a{
+		font-size: 2.4em;
+		font-weight: bold;
+		font-family: Bodega;
+		color: #fff;
+		text-decoration-line: none;
+	}
+	h2{
+		font-size: 2em;
+		font-family: 'Roboto Slab', serif;
+		color: #fff;
+		text-align: center;
+	}
+	h3{
+		line-height: 2;
+		color: #fff;
+		font-family: 'Roboto Slab', serif;
+		font-size: 2em;
+		text-align: left;
+		border-top: solid 2px #333;
+		border-left: solid 2px #333;
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	h4{
+		margin: 0 ;
+		padding: 0 ;
+	}
+	span,h4{
+		color: orange;
+		font-family: 'Roboto Slab', serif;
+	}
+	.seart {
+		background-color: #fff;
+		text-align: center;
+	}
+	section article{
+		width: 95%;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 2em;
+	}
+	p{
+		padding: 20px;
+		line-height: 2;
+		color: grey;
+		font-family: 'Roboto Slab', serif;
+	}
+	.qwe{
+		color: white;
+		text-align: center;
+	}
+	article img {
+		width: 90%;
+		margin: 0;
+	}
+	hr{
+		border: orange solid 1px ;
+		width: 80%;
+	}
+	button{
+		font-size: 1.2em;
+		border: 0;
+		background-color: orange;
+		padding: 15px 20px;
+		margin: 10px;
+		color: #fff;
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	article{
+		text-align: center;
+
+	}
+	i {	
+		font-size: 56px;
+		color: white;
+		display: block!important;
+		margin: 50px 0 0 0;
+	}
+	video{
+		width: 95%;
+	}
+	h5{
+		font-size: 1.5em;
+		font-weight: bold;
+		font-family: Bodega;
+		color: grey;
+	}
+	footer{
+		text-align: center;
+	}
+	footer a{
+		font-family: 'Roboto Slab', serif;
+		color: grey;
+		line-height: 3;
+		color: #fff;
+	}
+	.footera{
+		padding: 0 90px;
+	}
+	footer img{
+		width:15%;
+		margin-top:40px;
+	}
+	footer p{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
